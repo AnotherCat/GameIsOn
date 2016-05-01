@@ -26,6 +26,6 @@ public class PlayerShooting : NetworkBehaviour {
 
         NetworkServer.Spawn(bullet);
 
-        Destroy(bullet, 2);
+        Destroy(bullet, 60);
     }
 }
