@@ -6,12 +6,14 @@ public class PlayerShooting : NetworkBehaviour {
 
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
+
     
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             CmdFire(GetComponent<Player>().damage);
+            GetComponents < AudioSource >()[1].Play();
         }
     }
 
