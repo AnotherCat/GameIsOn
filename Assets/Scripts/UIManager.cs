@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour {
     public Text playerListText;
 
     public RectTransform bgLocalplayerHealthbar;
+    public RectTransform fgLocalplayerHealthbar;
 
     GameManager gm;
     public static UIManager INSTANCE;

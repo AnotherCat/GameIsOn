@@ -55,7 +55,12 @@ public class Player : NetworkBehaviour {
     void OnChangeHealth(int health)
     {
         healthbar.sizeDelta = new Vector2(health * 2, healthbar.sizeDelta.y);
-        UIManager.INSTANCE.bgLocalplayerHealthbar.sizeDelta = new Vector2(health * 2, UIManager.INSTANCE.bgLocalplayerHealthbar.sizeDelta.y);
+
+        if (isLocalPlayer)
+        {
+            UIManager.INSTANCE.fgLocalplayerHealthbar.sizeDelta = new Vector2(health * 10, UIManager.INSTANCE.fgLocalplayerHealthbar.sizeDelta.y);
+        }
+        
         GameManager.INSTANCE.getPlayer(transform.name).currentHp = health;
     }
 }
