@@ -6,7 +6,15 @@ using System.Collections.Generic;
 public class UIManager : MonoBehaviour {
     public Text playerListText;
 
+    public RectTransform bgLocalplayerHealthbar;
+
     GameManager gm;
+    public static UIManager INSTANCE;
+
+    void Awake()
+    {
+        INSTANCE = this;
+    }
 
     void Start()
     {
