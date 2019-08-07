@@ -8,6 +8,6 @@ This project compatible to unity3d version 5.3.4f1 [Download](https://unity3d.co
 3. Click Play
 
 ### Play Game
-1. download zip file game [GameIsOn.zip](https://github.com/feedallcat/GameIsOn/raw/master/GameIsOn.zip)
+1. download zip file game [Download](https://github.com/feedallcat/GameIsOn/raw/master/GameIsOn.zip)
 2. unzip game
 3. launch EXE/GameIsOn.exe
