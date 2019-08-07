@@ -6,3 +6,5 @@ how to open project
 1. open unity3d
 2. open Asset > Scenes > CreateScene
 3. Click Play
+
+[Download](https://github.com/feedallcat/GameIsOn/raw/master/GameIsOn.zip)
